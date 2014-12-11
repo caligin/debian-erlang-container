@@ -14,7 +14,8 @@ RUN DEBIAN_FRONTEND=noninteractive  \
        openssl \
        libssl-dev \
        fop \
-       m4
+       m4 \
+       wget
 
 ADD http://erlang.org/download/otp_src_${OTP_VERSION}.tar.gz /usr/src/
 RUN cd /usr/src \

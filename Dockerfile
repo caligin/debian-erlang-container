@@ -2,7 +2,7 @@ FROM debian:7
 
 MAINTAINER Tsukihara Caligin <caligin35+docker@gmail.com>
 
-ENV OTP_VERSION 17.1
+ENV OTP_VERSION 17.4
 ENV REBAR_VERSION 2.5.1
 
 RUN DEBIAN_FRONTEND=noninteractive  \
